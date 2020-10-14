@@ -1,0 +1,84 @@
+<!DOCTYPE html>	
+<html>
+	<title>Personal Portfolio</title>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+
+	<body>
+
+		<div id="topnav">
+			<a class="active">ABOUT ME</a>
+			<a> GALLERY</a>
+			<a> PROJECTS</a>
+			<a> MUSIC</a>
+		</div>
+
+		<div class="circle">
+			<img class="photo" src="assets/header.jpg" >
+		</div>
+			
+
+		<div class="name">
+			<h1>Niel Angelo F. Dela Cruz</h1>
+			<h2>BCEMC-191</h2>
+		</div>
+
+		<div class="intro">
+			<p style="font-weight:bold; color:#821010; font-size: 45px;">WHO AM I?</p>
+
+			Hi there, you can call me Niel and I'm currently studying Video Game Development and Design in Asia Pacific College. I am currently a Sophomore and have skills such as Graphic Design, Drawing, Coding, Sound Design, and Video Editing. I also try to learn new things along the way.
+		</div>
+
+		<div class="hobbies">
+			<h1>HOBBIES</h1>
+
+			<table style="width: 100%;">
+				<tr>
+					<th>
+						<div class="column">
+							<img class="hobby_photo" src="assets/photography.jpg">
+							<div class="hobby_text">
+								PHOTOGRAPHY	
+							</div>		
+						</div>
+					</th>
+						
+					<th>
+						<div class="column">
+							<img class="hobby_photo" src="assets/adventure.jpg">
+							<div class="hobby_text">	
+								TRAVELLING
+							</div>
+						</div>
+					</th>
+
+					<th>
+						<div class="column">
+							<img class="hobby_photo" src="assets/star_gazing.jpg">
+							<div class="hobby_text">
+								STAR GAZING
+							</div>	
+						</div>
+					</th>
+				</tr>
+			</table>
+
+		</div>
+
+
+		<script>
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			    document.getElementById("topnav").style.top = "0";
+			  } else {
+			    document.getElementById("topnav").style.top = "-100px";
+			  }
+			}
+		</script>
+
+	</body>			
+</html>
