@@ -1,20 +1,33 @@
 <!DOCTYPE html>	
 <html>
-	<title>Personal Portfolio</title>
+	<title>
+		Personal Portfolio
+	</title>
 
 	<head>
 		<link rel="stylesheet" type="text/css" href="index.css">
 	</head>
 
+	<link rel="icon"  href="assets/logo.jpg">
+
 	<body>
 
-		<div id="topnav">
-			<a class="active">ABOUT ME</a>
-			<a> GALLERY</a>
-			<a> PROJECTS</a>
-			<a> MUSIC</a>
+		<div id="about_me">
+			
 		</div>
 
+		<div id="topnav">
+			<a id="select" href="#about_me" onclick="onClick()" class=""> ABOUT ME</a>
+			<a id="select" href="#hobbies"> HOBBIES</a>
+			<a id="select"> ACTIVITIES</a>
+			<a id="select"> CERTIFICATES</a>
+			<a id="select"> PROJECTS</a>
+			<a id="select"> MUSIC</a>
+		</div>
+
+		
+
+	
 		<div class="circle">
 			<img class="photo" src="assets/header.jpg" >
 		</div>
@@ -22,16 +35,21 @@
 
 		<div class="name">
 			<h1>Niel Angelo F. Dela Cruz</h1>
-			<h2>BCEMC-191</h2>
+			<h>BCEMC-191</h>
 		</div>
 
 		<div class="intro">
-			<p style="font-weight:bold; color:#821010; font-size: 45px;">WHO AM I?</p>
+			<p style="font-weight:bold; color:#821010; font-size: 33px;">WHO AM I?</p>
 
-			Hi there, you can call me Niel and I'm currently studying Video Game Development and Design in Asia Pacific College. I am currently a Sophomore and have skills such as Graphic Design, Drawing, Coding, Sound Design, and Video Editing. I also try to learn new things along the way.
+			Hi there, you can call me Niel and I'm currently studying Video Game Development and Design in Asia Pacific College. I am currently a Sophomore and have skills such as Graphic Design, Drawing, Coding, Sound Design, and Video Editing. I also try to learn new things along the way. You can usually find me in-game having fun with friends or solo and if you do feel free to say hi, I go by the name of Mint Sauce.
 		</div>
 
-		<div class="hobbies">
+		<div class="socials">
+			
+		</div>
+		
+
+		<div id="hobbies">
 			<h1>HOBBIES</h1>
 
 			<table style="width: 100%;">
@@ -94,6 +112,8 @@
 				</tr>
 			</table>
 
+			
+
 		</div>
 
 
@@ -102,8 +122,14 @@
 
 			function scrollFunction() {
 			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-			    document.getElementById("topnav").style.top = "0";
+			    document.getElementById("topnav").style.cssText = "background-color: white; box-shadow: 0px 5px 10px #b8b8b8";
+			  } else {
+			  	document.getElementById("topnav").style.cssText = "background-color: #f7f7f7";
 			  }
+			}
+
+			function onClick() {
+				document.getElementById("select").addClass('active');
 			}
 		</script>
 

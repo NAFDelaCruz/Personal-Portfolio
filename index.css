@@ -1,6 +1,23 @@
+html 
+{
+	scroll-behavior: smooth;
+}
+
 body
 {
-	background-color: #f7f7f7;
+	background-color: #f5f5f5;
+}
+
+@font-face 
+{
+	font-family: GourmetHearth;
+	src: url(GourmetHearth.otf)	;
+}
+
+@font-face 
+{
+	font-family: Greycliff;
+	src: url(Greycliff.ttf);
 }
 
 #topnav {
@@ -8,93 +25,106 @@ body
  	position: fixed;
 	left: 0;
 	right: 0;
-	top: -100px;
-	background-color: white;
+	top: 0;
+	background-color: #f5f5f5;
  	width: 100%;
  	z-index: 1;
  	transition: top 0.3s;
- 	padding-bottom: 1%;
- 	box-shadow: 0px 5px 10px #b8b8b8;
+ 	padding-bottom: 0.5%;
 
 }
 
-#topnav a {
+#topnav a
+{
  	padding-top: 1%;
  	padding-left: 1%;
  	padding-right: 1%;
  	padding-bottom: 0.3%;
- 	margin-left: 15%;
- 	border: #821010;
+ 	margin-left: 9%;
 	float: left;
   	color: black;
   	text-align: center;
  	text-decoration: none;
- 	font-size: 100%;
- 	border: solid white;
+ 	font-size: 110%;
+ 	border: solid rgba(245, 245, 245, 0);
  	border-width: 0 0 2px;
  	border-spacing: 2px;
  	transition: 0.4s;	
+ 	font-family: Greycliff;
 }
 
 #topnav a:hover {
 	border: solid #821010;
  	border-width: 0 0 2px;
- 	border-spacing: 2px;
 }
+
+#about_me 
+{
+	width: 100%;
+	height: 1px;
+	margin-top: -2px;
+}
+
 
 .circle
 {	
-	margin-left: 5%;
-	margin-top: 1.5%;
-	width: 525px;
-	height: 525px;
-	border: 5px solid #821010;
+	margin-left: 17.5%;
+	margin-top: 10%;
+	width: 375px;
+	height: 375px;
+	border: 3px solid #821010;
 	border-radius: 50%;
 	position: absolute;
 }
 .photo 
 {
-	margin-left: 2.5%;
-	margin-top: 2.5%;
-	height: 500px; 
-	width: 500px;
+	margin-left: 3.5%;
+	margin-top: 3.5%;
+	height: 350px; 
+	width: 350px;
 	border-radius: 50%;
 }
 
 .name 	
 {
-	width: 50%;
+	width: 40%;
 	height: 20%;
 	padding: 0.1% 2%;
 	margin-left: 40%;
-	margin-top: 8.5%;
+	margin-top: 5%;
 	font-size: 25px;
 	border: solid #821010;
 	border-width: 0 0 2px;
+	text-align: center;
+	padding-bottom: 2%;
+	font-family: GourmetHearth;
 }
 
 .intro
 {
-	width: 45%;
+	width: 25%;
 	height: 35%;
 	padding: 1% 2% 15%;
 	margin-left: 40%;
-	font-size: 30px;
+	font-size: 23px;
 	text-align: justify;
+	color: #6e6e6e;
+	font-family: Greycliff;
 }
 
-.hobbies 
+#hobbies 
 {
-	width: 85%;
-	margin-top: -5%;
+	width: 65%;
+	margin-top: -10%;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 2%;
 	font-size: 25px;
 	border: solid #821010;
 	border-width: 2px 0 0 0;
-	font-size: 200%;
+	font-size: 150%;
 	text-align: center;
+	font-family: GourmetHearth;
 }
 
 table
@@ -106,8 +136,8 @@ table
 
 .column 
 {
-	width: 450px;
-	height: 450px;
+	width: 350px;
+	height: 350px;
 	margin-top: 5%;
 	margin-bottom: 5%;
 	position: relative;
@@ -119,8 +149,8 @@ table
 	border-top-right-radius: 20px;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
-	width: 450px;
-	height: 450px;
+	width: 350px;
+	height: 350px;
 	box-shadow: 0px 0px 30px grey;
 	box-shadow: 0px 0px 30px grey;
 }
@@ -139,9 +169,10 @@ table
   	bottom: 0;
   	left: 0;
   	right: 0;
-  	font-size: 100%;
+  	font-size: 80%;
 	opacity: 0;
 	transition: 0.25s ease-out;
+	font-family: Greycliff;
 }
 
 .hobby_photo:hover +.hobby_text
