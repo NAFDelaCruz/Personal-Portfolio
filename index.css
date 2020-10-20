@@ -27,7 +27,6 @@ body
 	left: 0;
 	right: 0;
 	top: 0;
-	background-color: transparent;
  	width: 100%;
  	z-index: 3;
  	transition: top 0.3s;
@@ -40,6 +39,7 @@ body
  	position: fixed;
 	left: 0;
 	right: 0;
+	background-color: white;
 	top: -100px;
  	width: 100%;
  	height: 50px;
@@ -321,7 +321,7 @@ body
 	width: 100%;
 	height: 100%;
 	position: relative;
-	filter: brightness(25%);
+	filter: brightness(15%);
 	bottom: -15px;
 }
 
@@ -331,10 +331,10 @@ body
 	height: 20%;
 	position: absolute;
 	z-index: 1;
-	top: 15%;
-	left: 10%;
+	top: 27%;
+	left: 17%;
 	color: white;
-	font-size: 200%; 
+	font-size: 150%; 
 }
 
 .logo 
@@ -342,8 +342,8 @@ body
 	width: 20%;
 	height: 225%;
 	position: absolute;
-	margin-left: 55%;
-	margin-top: -5%;
+	margin-left: 48%;
+	margin-top: -9%;
 }
 
 /*JS CSS*/
