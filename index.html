@@ -24,9 +24,10 @@
 			<a id="select" href="#contact_me"> CONTACT ME</a>
 		</div>
 
+		<div id="topnavbg">
+			
+		</div>
 		
-
-	
 		<div class="circle">
 			<img class="photo" src="assets/header.jpg" >
 		</div>
@@ -376,13 +377,13 @@
 
 			function scrollFunction() {
 			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-			    document.getElementById("topnav").style.cssText = "background-color: white;box-shadow: 0px 5px 10px #b8b8b8";
+			    document.getElementById("topnavbg").style.cssText = "background-color: white; box-shadow: 0px 5px 10px #b8b8b8; top: 0px; transition: 0.4s";
 			  } else {
-			  	document.getElementById("topnav").style.cssText = "background-color: #f7f7f7";
+			  	document.getElementById("topnavbg").style.cssText = "background-color: #f7f7f7; top: -100px; transition: 0.4s";
 			  } 
 
 			  if (document.body.scrollTop > 3760 || document.documentElement.scrollTop > 3760) {
-			  		document.getElementById("topnav").style.cssText = "background-color: white; box-shadow: 0px 0px 0px #b8b8b8";
+			  		document.getElementById("topnavbg").style.cssText = "background-color: white; box-shadow: 0px 0px 0px #b8b8b8; top: 0";
 			  }
 			}
 
