@@ -8,7 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="index.css">
 	</head>
 
-	<link rel="icon"  href="assets/logo.jpg">
+	<link rel="icon"  href="assets/html_logo.png">
 
 	<body>
 
@@ -17,12 +17,11 @@
 		</div>
 
 		<div id="topnav">
-			<a id="select" href="#about_me" onclick="onClick()" class=""> ABOUT ME</a>
+			<a id="select" href="#about_me"> ABOUT ME</a>
 			<a id="select" href="#hobbies"> HOBBIES</a>
-			<a id="select"> ACTIVITIES</a>
-			<a id="select"> CERTIFICATES</a>
-			<a id="select"> PROJECTS</a>
-			<a id="select"> MUSIC</a>
+			<a id="select" href="#activities"> ACTIVITIES</a>
+			<a id="select" href="#certificates"> CERTIFICATES</a>
+			<a id="select" href="#contact_me"> CONTACT ME</a>
 		</div>
 
 		
@@ -35,29 +34,41 @@
 
 		<div class="name">
 			<h1>Niel Angelo F. Dela Cruz</h1>
-			<h>BCEMC-191</h>
+			<h>BSEMC-191</h>
 		</div>
 
-		<div class="intro">
-			<p style="font-weight:bold; color:#821010; font-size: 33px;">WHO AM I?</p>
+		<div class="container1">
+			<div class="intro">
+				<p style="font-family: GreycliffB; color:#821010; font-size: 31px;">
+					ABOUT ME
 
-			Hi there, you can call me Niel and I'm currently studying Video Game Development and Design in Asia Pacific College. I am currently a Sophomore and have skills such as Graphic Design, Drawing, Coding, Sound Design, and Video Editing. I also try to learn new things along the way. You can usually find me in-game having fun with friends or solo and if you do feel free to say hi, I go by the name of Mint Sauce.
-		</div>
+					<div class="socials">
+					
+						<a href="https://www.facebook.com/nielangelof.delacruz/" target="_blank"><img class="logos" src="assets/fb.png"></a>
 
-		<div class="socials">
-			
+						<a href="https://www.instagram.com/nielfootweak/?hl=en" target="_blank"><img class="logos" src="assets/ig.png"></a>
+
+						<a href="https://www.linkedin.com/in/niel-angelo-dela-cruz-ab50a618a/" target="_blank"><img class="logos" src="assets/li.png"></a>
+
+						<a href="https://steamcommunity.com/profiles/76561198861841322/" target="_blank"><img class="logos" src="assets/steam.png"></a>
+
+					</div>
+				</p>
+
+				Hi there, you can call me Niel and I'm currently studying Video Game Development and Design in Asia Pacific College. I am currently a Sophomore and have skills such as Graphic Design, Drawing, Coding, Sound Design, and Video Editing. I also try to learn new things along the way. You can usually find me in-game having fun with friends or solo, and if you do feel free to say hi. I go by the in-game name of Mint Sauce.
+
+			</div>
 		</div>
 		
-
-		<div id="hobbies">
+		<div id="hobbies" class="containers">
 			<h1>HOBBIES</h1>
 
-			<table style="width: 100%;">
+			<table id="hobby" style="width: 100%;">
 				<tr>
 					<th>
 						<div class="column">
 							<img class="hobby_photo" src="assets/photography.jpg">
-							<div class="hobby_text">
+							<div id="hobby_text">
 								PHOTOGRAPHY	
 							</div>		
 						</div>
@@ -66,7 +77,7 @@
 					<th>
 						<div class="column">
 							<img class="hobby_photo" src="assets/adventure.jpg">
-							<div class="hobby_text">	
+							<div id="hobby_text">	
 								TRAVELLING
 							</div>
 						</div>
@@ -75,7 +86,7 @@
 					<th>
 						<div class="column">
 							<img class="hobby_photo" src="assets/star_gazing.jpg">
-							<div class="hobby_text">
+							<div id="hobby_text">
 								STAR GAZING
 							</div>	
 						</div>
@@ -86,7 +97,7 @@
 					<th>
 						<div class="column">
 							<img class="hobby_photo" src="assets/drawing.jpg">
-							<div class="hobby_text">
+							<div id="hobby_text">
 								DRAWING
 							</div>	
 						</div>
@@ -95,7 +106,7 @@
 					<th>
 						<div class="column">
 							<img class="hobby_photo" src="assets/cooking.jpg">
-							<div class="hobby_text">
+							<div id="hobby_text">
 								COOKING
 							</div>	
 						</div>
@@ -104,17 +115,260 @@
 					<th>
 						<div class="column">
 							<img class="hobby_photo" src="assets/gaming.jpg">
-							<div class="hobby_text">
+							<div id="hobby_text">
 								GAMING
 							</div>	
 						</div>
 					</th>
 				</tr>
-			</table>
-
-			
+			</table>		
 
 		</div>
+
+		<div id="activities" class="containers">
+			<h1>ACTIVITIES</h1>
+
+			<table id="activity"style="width: 100%;">
+				<tr>
+					<th>
+						<a href="activities/A1_DELACRUZ_NIELANGELO.pdf" target="_blank">
+							<div class="column1">
+								<img class="activity_photo" src="https://programadoresbrasil.com.br/wp-content/uploads/2020/03/319205.jpg">
+								<div id="activity_text">
+									A1: FAVORITE APPLICATION
+								</div>		
+							</div>
+						</a>
+					</th>
+					<th>
+						<a href="activities/A2_DELACRUZ_NIELANGELO.pdf" target="_blank">
+							<div class="column1">
+								<img class="activity_photo" src="https://ahamediagroup.com/wp-content/uploads/2017/08/personas-aha-media.jpg">
+								<div id="activity_text">
+									A2: PERSONAS	
+								</div>		
+							</div>
+						</a>	
+					</th>
+
+						<th>
+						<a href="activities/A3_DELACRUZ_NIELANGELO.pdf" target="_blank">
+							<div class="column1">
+								<img class="activity_photo" src="https://assets-global.website-files.com/5ae17eb10974c57415c53e4b/5ae17eb10974c54890c548bb_How%20to%20Come%20Up%20with%2010%20Ideas%20in%2010%20Minutes.png">
+								<div id="activity_text">
+									A3: PROTOTYPE	
+								</div>		
+							</div>
+						</a>	
+					</th>
+
+					<th>
+						<a href="activities/A4_DELACRUZ_NIELANGELO.pdf" target="_blank">
+							<div class="column1">
+								<img class="activity_photo" src="https://invitation.codes/img/brand/logo_blk_col.svg">
+								<div id="activity_text">
+									A4: INVITATION	
+								</div>		
+							</div>
+						</a>		
+					</th>
+				</tr>
+
+				<tr>
+					<th>
+						<a href="activities/R1_DELACRUZ_NIELANGELO.pdf" target="_blank">
+							<div class="column1">
+								<img class="activity_photo" src="https://invoidea.com/wp-content/uploads/2019/11/UIUX.jpg">
+								<div id="activity_text">
+									R1: UI/UX
+								</div>		
+							</div>
+						</a>	
+					</th>
+					<th>
+						<a href="activities/R2_DELACRUZ_NIELANGELO.pdf" target="_blank">
+							<div class="column1">
+								<img class="activity_photo" src="https://cdn.dribbble.com/users/192979/screenshots/3479972/db99-dt_process.png">
+								<div id="activity_text">
+									R2: DESIGN THINKING PROCESS	
+								</div>		
+							</div>
+						</a>	
+					</th>
+
+					<th>
+						<a href="activities/R3_DELACRUZ_NIELANGELO.pdf" target="_blank">
+							<div class="column1">
+								<img class="activity_photo" src="https://img2.pngio.com/customer-icon-transparent-png-customer-journey-icon-png-customer-journey-png-820_552.png">
+								<div id="activity_text">
+									R3: NEED FINDING	
+								</div>		
+							</div>
+						</a>	
+					</th>
+
+					<th>
+						<a href="activities/R4_DELACRUZ_NIELANGELO.pdf" target="_blank">
+							<div class="column1">
+								<img class="activity_photo" src="https://cdn4.vectorstock.com/i/1000x1000/96/68/outline-information-architecture-icon-isolated-vector-28249668.jpg">
+								<div id="activity_text">
+									R4: INFORMATION ARCHITECTURE	
+								</div>		
+							</div>
+						</a>	
+					</th>
+				</tr>
+
+				<tr>
+					<th>
+						<a href="activities/G1_DELACRUZ_NIELANGELO.pdf" target="_blank">
+							<div class="column1">
+								<img class="activity_photo" src="https://www.iservice.at/wp-content/uploads/2020/04/UX-User-Experience-%C3%ADService-Werbeagentur-Titel03.png">
+								<div id="activity_text">
+									G1: WHAT IS USERDES
+								</div>		
+							</div>
+						</a>	
+					</th>
+					<th>
+						<a href="activities/G2_DELACRUZ_NIELANGELO.pdf" target="_blank">
+							<div class="column1">
+								<img class="activity_photo" src="https://empathizeit.com/wp-content/uploads/2019/07/empathize_design_process-1200x600-c-default.jpg">
+								<div id="activity_text">
+									G2: WHAT IS DESIGN THINKING	
+								</div>		
+							</div>
+						</a>	
+					</th>
+
+					<th>
+						<a href="activities/G3_DELACRUZ_NIELANGELO.pdf" target="_blank">
+							<div class="column1">
+								<img class="activity_photo" src="https://cdn1.vectorstock.com/i/1000x1000/43/70/prototype-icon-simple-element-from-startup-icons-vector-27744370.jpg">
+								<div id="activity_text">
+									G3: WHAT IS PROTOTYPING	
+								</div>		
+							</div>
+						</a>
+					</th>
+					<!--
+					<th>		
+						<div class="column1">
+							<img class="activity_photo" src="https://lh3.googleusercontent.com/proxy/TkAmFC1D59vRIw_er_IIix8TtnOkrzeNmQjWHvEjipga6BaL5kWOAwKYqMtQoDi4VgjrA1F_7X5V3Aziy2dv54QPoiTE48n2_m-G0FM2x4_kxvwN2McZxKY_EJfPsTw">
+							<div id="activity_text">
+								ADD ACTIVITY	
+							</div>		
+						</div>
+					</th>
+					-->
+				</tr>
+			</table>
+
+		</div>
+
+		<div id="certificates" class="containers">
+			<h1>CERTIFICATES</h1>
+
+			<table id="certificate"style="width: 100%;">
+				<tr>
+					<th>
+						<div class="column2">
+							<img class="certificate_photo" src="certificates/1.jpg">
+						</div>
+					</th>
+
+					<th>
+						<div class="column2">
+							<img class="certificate_photo" src="certificates/2.jpg">		
+						</div>
+	
+					</th>
+
+					<th>
+						<div class="column2">
+							<img class="certificate_photo" src="certificates/3.jpg">		
+						</div>
+					</th>
+
+					<th>
+						<div class="column2">
+							<img class="certificate_photo" src="certificates/4.jpg">		
+						</div>	
+					</th>
+				</tr>
+
+				<tr>
+					<th>
+						<div class="column2">
+							<img class="certificate_photo" src="certificates/5.jpg">		
+						</div>
+					</th>
+
+					<th>
+						<div class="column2">
+							<img class="certificate_photo" src="certificates/6.jpg">		
+						</div>
+	
+					</th>
+
+					<th>
+						<div class="column2">
+							<img class="certificate_photo" src="certificates/7.jpg">		
+						</div>
+					</th>
+
+					<th>
+						<div class="column2">
+							<img class="certificate_photo" src="certificates/8.jpg">		
+						</div>	
+					</th>
+				</tr>
+
+				<!-- The Modal -->
+				<div id="myModal" class="modal">
+				  <span class="close">&times;</span>
+				  <img class="modal-content" id="img01">
+				  <div id="caption"></div>
+				</div>
+
+			</table>
+		</div>	
+
+		<div id="contact_me" class="contact">
+			<img class="contact_photo" src="assets/contact.jpg">
+			<div class="contact_text">
+				<a style="font-size: 350%;">CONTACT ME</a>
+				<br><br><br><br><br>
+				<table style="width: 55%; text-align: left; vertical-align: text-top;">
+					<tr>
+						<th>
+							EMAIL:
+							<br><br><br>
+							PHONE:
+							<br><br>
+							CONTACT NUM:
+						</th>
+
+						<th>
+							nielangelodelacruz@gmail.com (business)
+							<br>
+							nfdelacruz@student.apc.edu.ph (school)
+							<br><br>
+							8 556 3294
+							<br><br>
+							+63 995 664 5737
+						</th>
+						
+						<img class="logo" src="assets/logo_circle.png">
+					
+					</tr>
+				</table>
+				<br><br><br><br><br><br><br>
+				<a style="font-size: 70%; margin-left: 32%;">&#169; Niel Angelo F. Dela Cruz 2020</a>
+			</div>
+		</div>	
+
+		<div></div>
 
 
 		<script>
@@ -128,10 +382,33 @@
 			  }
 			}
 
-			function onClick() {
-				document.getElementById("select").addClass('active');
-			}
-		</script>
+			// create references to the modal...
+			var modal = document.getElementById('myModal');
+			// to all images -- note I'm using a class!
+			var images = document.getElementsByClassName('certificate_photo');
+			// the image in the modal
+			var modalImg = document.getElementById("img01");
+			// and the caption in the modal
+			var captionText = document.getElementById("caption");
 
+			// Go through all of the images with our custom class
+			for (var i = 0; i < images.length; i++) {
+			  var img = images[i];
+			  // and attach our click listener for this image.
+			  img.onclick = function(evt) {
+			    modal.style.display = "block";
+			    modalImg.src = this.src;
+			    captionText.innerHTML = this.alt;
+			  }
+			}
+
+			var span = document.getElementsByClassName("close")[0];
+
+			span.onclick = function() {
+			  modal.style.display = "none";
+			}
+
+			//credit modal-image JS to Snowmonkey
+		</script>
 	</body>			
 </html>
