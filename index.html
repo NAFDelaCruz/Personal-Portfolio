@@ -1,36 +1,59 @@
 <!DOCTYPE html>	
 <html>
-	<title>
-		Personal Portfolio
-	</title>
 
 	<head>
 		<link rel="stylesheet" type="text/css" href="index.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>
+			Personal Portfolio
+		</title>
 	</head>
 
 	<link rel="icon"  href="assets/html_logo.png">
 
 	<body>
 
-		<div id="about_me">
-			
-		</div>
+		
 
 		<div id="topnav">
-			<a id="select" href="#about_me"> ABOUT ME</a>
-			<a id="select" href="#hobbies"> HOBBIES</a>
-			<a id="select" href="#activities"> ACTIVITIES</a>
-			<a id="select" href="#certificates"> CERTIFICATES</a>
-			<a id="select" href="#contact_me"> CONTACT ME</a>
+			<a style="color: white" id="select" href="#home">HOME</a>
+			<a style="color: white" id="select1" href="#about_me">ABOUT ME</a>
+			<a style="color: white" id="select2" href="#hobbies">HOBBIES</a>
+			<a style="color: white" id="select3" href="#activities">ACTIVITIES</a>
+			<a style="color: white" id="select4" href="#certificates">CERTIFICATES</a>
+			<a style="color: white" id="select5" href="#contact_me">CONTACT ME</a>
 		</div>
 
 		<div id="topnavbg">
 			
 		</div>
-		
-		<div class="circle">
-			<img class="photo" src="assets/header.jpg" >
+
+		<div id=home>
+			<div class="center">
+				WELCOME TRAVELLER
+				<p style="font-size: 50%;">care to explore?</p>
+
+				<a class="design" href="#about_me">
+					<div class="button">
+						click here
+					</div>
+				</a>
+					
+			</div>
+			<img class="homebg" src="assets/home.jpg">
 		</div>
+
+
+		<div id="about_me">
+			
+		</div>
+
+		<div class="store">
+			<div class="circle">
+				<img class="photo" src="assets/header.jpg" >
+			</div>
+		</div>		
 			
 
 		<div class="name">
@@ -65,9 +88,9 @@
 			<h1>HOBBIES</h1>
 
 			<table id="hobby" style="width: 100%;">
-				<tr>
-					<th>
-						<div class="column">
+				<tr class="row">
+					<th class="column">
+						<div>
 							<img class="hobby_photo" src="assets/photography.jpg">
 							<div id="hobby_text">
 								PHOTOGRAPHY	
@@ -75,8 +98,8 @@
 						</div>
 					</th>
 						
-					<th>
-						<div class="column">
+					<th class="column">
+						<div>
 							<img class="hobby_photo" src="assets/adventure.jpg">
 							<div id="hobby_text">	
 								TRAVELLING
@@ -84,8 +107,8 @@
 						</div>
 					</th>
 
-					<th>
-						<div class="column">
+					<th class="column">
+						<div>
 							<img class="hobby_photo" src="assets/star_gazing.jpg">
 							<div id="hobby_text">
 								STAR GAZING
@@ -94,9 +117,9 @@
 					</th>
 				</tr>
 
-				<tr>
-					<th>
-						<div class="column">
+				<tr class="row">
+					<th class="column">
+						<div>
 							<img class="hobby_photo" src="assets/drawing.jpg">
 							<div id="hobby_text">
 								DRAWING
@@ -104,8 +127,8 @@
 						</div>
 					</th>
 
-					<th>
-						<div class="column">
+					<th class="column">
+						<div>
 							<img class="hobby_photo" src="assets/cooking.jpg">
 							<div id="hobby_text">
 								COOKING
@@ -113,8 +136,8 @@
 						</div>
 					</th>
 
-					<th>
-						<div class="column">
+					<th class="column">
+						<div>
 							<img class="hobby_photo" src="assets/gaming.jpg">
 							<div id="hobby_text">
 								GAMING
@@ -272,55 +295,63 @@
 
 			<table id="certificate"style="width: 100%;">
 				<tr>
-					<th>
-						<div class="column2">
+					<th class="column2">
+						<div>
 							<img class="certificate_photo" src="certificates/1.jpg">
 						</div>
 					</th>
 
-					<th>
-						<div class="column2">
+					<th class="column2">
+						<div>
 							<img class="certificate_photo" src="certificates/2.jpg">		
 						</div>
 	
 					</th>
 
-					<th>
-						<div class="column2">
+					<th class="column2">
+						<div>
 							<img class="certificate_photo" src="certificates/3.jpg">		
 						</div>
-					</th>
-
-					<th>
-						<div class="column2">
-							<img class="certificate_photo" src="certificates/4.jpg">		
-						</div>	
 					</th>
 				</tr>
 
 				<tr>
-					<th>
-						<div class="column2">
+					<th class="column2">
+						<div>
+							<img class="certificate_photo" src="certificates/4.jpg">		
+						</div>	
+					</th>
+
+					<th class="column2">
+						<div>
 							<img class="certificate_photo" src="certificates/5.jpg">		
 						</div>
 					</th>
 
-					<th>
-						<div class="column2">
+					<th class="column2">
+						<div>
 							<img class="certificate_photo" src="certificates/6.jpg">		
 						</div>
 	
 					</th>
+				</tr>
 
-					<th>
-						<div class="column2">
+				<tr>	
+					<th class="column2">
+						<div>
 							<img class="certificate_photo" src="certificates/7.jpg">		
 						</div>
 					</th>
 
-					<th>
-						<div class="column2">
+					<th class="column2">
+						<div>
 							<img class="certificate_photo" src="certificates/8.jpg">		
+						</div>	
+					</th>
+
+					<th class="column2">
+						<div>
+							<img class="certificate_photo" src="certificates/9.jpg">		
 						</div>	
 					</th>
 				</tr>
@@ -361,7 +392,9 @@
 							+63 995 664 5737
 						</th>
 						
-						<img class="logo" src="assets/logo_circle.png">
+						<div class="logo_store">
+							<img class="logo" src="assets/logo_circle.png">
+						</div>
 					
 					</tr>
 				</table>
@@ -376,13 +409,26 @@
 
 
 		<script>
-			window.onscroll = function() {scrollFunction()};
+			window.onscroll = function() {scrollFunction()};	
 
 			function scrollFunction() {
 			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 			    document.getElementById("topnavbg").style.cssText = "background-color: white; box-shadow: 0px 5px 10px #b8b8b8; top: 0px; transition: 0.4s";
+			    document.getElementById("select").style.cssText = "color: black";
+			    document.getElementById("select1").style.cssText = "color: black";
+			    document.getElementById("select2").style.cssText = "color: black";
+			    document.getElementById("select3").style.cssText = "color: black";
+			    document.getElementById("select4").style.cssText = "color: black";
+			    document.getElementById("select5").style.cssText = "color: black";
+
 			  } else {
 			  	document.getElementById("topnavbg").style.cssText = "background-color: #f7f7f7; top: -100px; transition: 0.4s";
+			  	document.getElementById("select").style.cssText = "color: white";
+			  	document.getElementById("select1").style.cssText = "color: white";
+			  	document.getElementById("select2").style.cssText = "color: white";
+			  	document.getElementById("select3").style.cssText = "color: white";
+			  	document.getElementById("select4").style.cssText = "color: white";
+			  	document.getElementById("select5").style.cssText = "color: white";
 			  } 
 
 			  if (document.body.scrollTop > 3760 || document.documentElement.scrollTop > 3760) {
@@ -417,6 +463,7 @@
 			}
 
 			//credit modal-image JS to Snowmonkey
+
 		</script>
 	</body>			
 </html>
